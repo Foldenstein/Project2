@@ -12,7 +12,7 @@ export default function Home() {
   const [wallet, setWallet] = useState(null)
   const [results, setResults] = useState([])
 
-  const CONTRACT_ADDRESS = "0x33CdA4437DF558a194e39E8dD6271B41BCff1Adb"
+  const CONTRACT_ADDRESS = "0x98327eDF52e1a40a76817D3F47a5F0F98492Dd55"
 
   const ABI = [
     "function vote(uint foodIndex)",
